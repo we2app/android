@@ -2,7 +2,7 @@ FROM we2app/java
 
 # https://developer.android.com/studio/#downloads
 ENV ANDROID_SDK_URL="https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip" \
-    ANDROID_BUILD_TOOLS_VERSION=30.0.0 \
+    ANDROID_BUILD_TOOLS_VERSION=30.0.3 \
     ANT_HOME="/usr/share/ant" \
     MAVEN_HOME="/usr/share/maven" \
     GRADLE_HOME="/usr/share/gradle" \
